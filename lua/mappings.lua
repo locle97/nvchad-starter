@@ -11,7 +11,8 @@ map("i", "jk", "<ESC>")
 -- n, v, i, t = mode names
 
 -- Lspconfig Code action
-map("i", "<C-y>", function() vim.lsp.buf.code_action() end , { desc = "lsp code_action", })
+map("n", "<C-y>", function() vim.lsp.buf.code_action() end , { desc = "lsp code_action", })
+map("n", "<C-.>", function() vim.lsp.buf.code_action() end , { desc = "lsp code_action", })
 
 -- User config
 -- LSPConfig
