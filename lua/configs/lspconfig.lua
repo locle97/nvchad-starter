@@ -37,3 +37,5 @@ lspconfig.omnisharp.setup {
   },
   root_dir = util.root_pattern("*.csproj", "*.sln"),
 }
+
+lspconfig.emmet_language_server.setup{}
