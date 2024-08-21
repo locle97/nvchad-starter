@@ -5,7 +5,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "catppuccin",
+	theme = "ashes",
   transparency = true,
 
 
@@ -16,6 +16,9 @@ M.base46 = {
 }
 
 M.ui = {
+  tabufline = {
+    enable = false,
+  },
   nvdash = {
     load_on_startup = true,
 
