@@ -17,7 +17,7 @@ M.base46 = {
 
 M.ui = {
   tabufline = {
-    enable = false,
+    enabled = false,
   },
   nvdash = {
     load_on_startup = true,
