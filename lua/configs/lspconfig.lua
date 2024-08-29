@@ -35,7 +35,7 @@ lspconfig.omnisharp.setup {
     "--hostPID",
     tostring(pid),
   },
-  root_dir = util.root_pattern("*.csproj", "*.sln"),
+  root_dir = util.root_pattern("*.sln", "*.csproj"),
 }
 
 lspconfig.emmet_language_server.setup{}
