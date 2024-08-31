@@ -5,54 +5,53 @@
 local M = {}
 
 M.base46 = {
-	theme = "ashes",
-  transparency = true,
+    theme = "tomorrow_night",
+    transparency = true,
 
-
-  -- hl_override = {
-  Comment = { italic = true },
-  ["@comment"] = { italic = true },
-  -- },
+    -- hl_override = {
+    Comment = { italic = true },
+    ["@comment"] = { italic = true },
+    -- },
 }
 
 M.ui = {
-  tabufline = {
-    enabled = false,
-  },
-  nvdash = {
-    load_on_startup = true,
-
-    header = {
-      "                   -`                   ",
-      "                  .o+`                  ",
-      "                 `ooo/                  ",
-      "                `+oooo:                 ",
-      "               `+oooooo:                ",
-      "               -+oooooo+:               ",
-      "             `/:-:++oooo+:              ",
-      "            `/++++/+++++++:             ",
-      "           `/++++++++++++++:            ",
-      "          `/+++ooooooooooooo/`          ",
-      "         ./ooosssso++osssssso+`         ",
-      "        .oossssso-````/ossssss+`        ",
-      "       -osssssso.      :ssssssso.       ",
-      "      :osssssss/        osssso+++.      ",
-      "     /ossssssss/        +ssssooo/-      ",
-      "   `/ossssso+/:-        -:/+osssso+-    ",
-      "  `+sso+:-`                 `.-/+oso:   ",
-      " `++:.                           `-/+/  ",
-      " .`                                 `   ",
+    tabufline = {
+        enabled = false,
     },
+    nvdash = {
+        load_on_startup = true,
 
-    buttons = {
-      { "  Find File", "Spc f f", "Telescope find_files" },
-      { "󰈚  Recent Files", "Spc f o", "Telescope oldfiles" },
-      { "󰈭  Find Word", "Spc f w", "Telescope live_grep" },
-      { "  Bookmarks", "Spc m a", "Telescope marks" },
-      { "  Themes", "Spc t h", "Telescope themes" },
-      { "  Mappings", "Spc c h", "NvCheatsheet" },
+        header = {
+            "                   -`                   ",
+            "                  .o+`                  ",
+            "                 `ooo/                  ",
+            "                `+oooo:                 ",
+            "               `+oooooo:                ",
+            "               -+oooooo+:               ",
+            "             `/:-:++oooo+:              ",
+            "            `/++++/+++++++:             ",
+            "           `/++++++++++++++:            ",
+            "          `/+++ooooooooooooo/`          ",
+            "         ./ooosssso++osssssso+`         ",
+            "        .oossssso-````/ossssss+`        ",
+            "       -osssssso.      :ssssssso.       ",
+            "      :osssssss/        osssso+++.      ",
+            "     /ossssssss/        +ssssooo/-      ",
+            "   `/ossssso+/:-        -:/+osssso+-    ",
+            "  `+sso+:-`                 `.-/+oso:   ",
+            " `++:.                           `-/+/  ",
+            " .`                                 `   ",
+        },
+
+        buttons = {
+            { "  Find File", "Spc f f", "Telescope find_files" },
+            { "󰈚  Recent Files", "Spc f o", "Telescope oldfiles" },
+            { "󰈭  Find Word", "Spc f w", "Telescope live_grep" },
+            { "  Bookmarks", "Spc m a", "Telescope marks" },
+            { "  Themes", "Spc t h", "Telescope themes" },
+            { "  Mappings", "Spc c h", "NvCheatsheet" },
+        },
     },
-  },
 }
 
 
