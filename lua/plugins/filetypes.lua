@@ -9,6 +9,7 @@ return {
                         -- Set the filetype of *.pn files to potion
                         cql = "cypher",
                         cypher = "cypher",
+                        resx = "xml",
                     },
                 },
 
