@@ -17,3 +17,12 @@ o.smartindent = true
 o.tabstop = 4
 
 opt.relativenumber = true
+
+vim.filetype.add({
+  -- Detect and assign filetype based on the extension of the filename
+  extension = {
+    cql = "cypher",
+    cypher = "cypher",
+    resx = "xml",
+  },
+})
