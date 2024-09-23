@@ -3,6 +3,7 @@ require "nvchad.mappings"
 -- add yours here
 
 local map = vim.keymap.set
+local unmap = vim.keymap.del
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
@@ -40,5 +41,9 @@ map('n', "<C-h>", "<cmd> NvimTmuxNavigateLeft<CR>", { desc = "Navigate left" })
 map('n', "<C-j>", "<cmd> NvimTmuxNavigateDown<CR>", { desc = "Navigate down" })
 map('n', "<C-k>", "<cmd> NvimTmuxNavigateUp<CR>", { desc = "Navigate up" })
 map('n', "<C-l>", "<cmd> NvimTmuxNavigateRight<CR>", { desc = "Navigate right" })
+
+unmap('n', "<Tab>")
+unmap('n', "<S-Tab>")
+unmap('n', "<leader>x")
 
 -- End user config
