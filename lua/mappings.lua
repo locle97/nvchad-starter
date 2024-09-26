@@ -36,12 +36,6 @@ map("n", "<leader>q", function() vim.diagnostic.setloclist() end, { desc = "Diag
 map("n", "<C-p>", "<cmd> Telescope find_files <CR>", { desc = "find files" })
 map("n", "<leader>fp", "<cmd> Telescope projects <CR>", { desc = "Project" })
 
--- Nvim tmux navigator config
-map('n', "<C-h>", "<cmd> NvimTmuxNavigateLeft<CR>", { desc = "Navigate left" })
-map('n', "<C-j>", "<cmd> NvimTmuxNavigateDown<CR>", { desc = "Navigate down" })
-map('n', "<C-k>", "<cmd> NvimTmuxNavigateUp<CR>", { desc = "Navigate up" })
-map('n', "<C-l>", "<cmd> NvimTmuxNavigateRight<CR>", { desc = "Navigate right" })
-
 unmap('n', "<Tab>")
 unmap('n', "<S-Tab>")
 unmap('n', "<leader>x")
